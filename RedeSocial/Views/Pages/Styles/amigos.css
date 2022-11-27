@@ -1,0 +1,67 @@
+.container-amigos h4{
+	font-size: 25px;
+	color:#454545;
+}
+
+.amigos{
+	width:100%;
+}
+
+.container-amigos-wraper{
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+	margin:40px 0;
+}
+
+.container-amigos-single{
+	width:32%;
+	margin-bottom: 10px;
+	margin-right: 1%;
+	background-color: white;
+	display: flex;
+
+}
+
+.container-amigos-single .img-amigos-user-single{
+	width:25%;
+	height: 90%;
+	background-color: white;
+}
+
+.img-amigos-user-single img{
+	width: 100%;
+	height: 100%;
+}
+
+.container-amigos-single .info-amigos-user-single{
+	width:80%;
+	padding:20px;
+
+}
+
+.info-amigos-user-single h2{
+	font-weight: bold;
+	font-size: 15px;
+	color:#454545;
+}
+
+.info-amigos-user-single p{
+	font-size: 15px;
+	color:#454545;
+	opacity: 0.4;
+	margin:10px 0;
+}
+
+
+
+.btn-solicitar-amizade a{
+	border:1px solid #069;
+	padding:5px;
+	color:#069;
+	display: inline-block;
+	font-size: 13px;
+	margin:5px 0;
+	text-decoration:none;
+}
+

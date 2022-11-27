@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    background-image: linear-gradient(to right, #00BFFF, #8470FF);
+    height: 100%;
+}
+
+.sidebar{
+    width: 19%;
+    height: 100%;
+    background-color: #EAEAF4;
+}
+
+.form-container-login{
+    transform:translate(-36%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-width: 1100px;
+}
+
+.form-container-login img{
+    max-width:240px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+
+.form-conteiner-login{
+    display: flex;
+}
+
+.logo-chamada-login{
+    width: 60%;
+}
+
+.form-login{
+    background-color: white;
+    width: 74%;
+    padding: 30px;
+    max-width: 500px;
+}
+
+.form-login input[type=text],
+.form-login input[type=password]{
+    width: 370px;
+    height: 40px;
+    padding-left: 10px;
+    box-shadow: 0px 3px 1px #D3D8E067;
+    border: 1px solid #EBEBEB;
+    margin: 7px 0px;
+}
+
+.form-login input[type=submit]{
+    width: 100%;
+    height: 36px;
+    color: black;
+    cursor: pointer;
+    background-color: #444294 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 1px #2B2962;
+    border-radius: 10px;
+}
+
+.form-login a{
+    margin-top: 10px;
+    border: 2px solid #444294;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    pad: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #444294;
+}

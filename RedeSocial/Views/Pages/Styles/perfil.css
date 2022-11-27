@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,html{
+    height: 100%;
+    background-image: linear-gradient(to right, #00BFFF, #8470FF);
+}
+
+section.main-perfil{
+    display: flex;
+    height: 100%;
+}
+
+.perfil{
+    overflow: auto;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 100%;
+}
+
+.editar-perfil{
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.editar-perfil img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.editar-perfil input[type=text],
+.editar-perfil input[type=password]{
+    width: 40%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.editar-perfil input[type=submit]{
+    background-color: #2c2c69;
+    width: 120px;
+    height: 30px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.editar-perfil input[type=file]{display:none;}
+
+.editar-perfil label{
+    background-color: orange;
+    width: 120px;
+    height: 30px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: block;
+}
+
+.editar-perfil h5{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+}
